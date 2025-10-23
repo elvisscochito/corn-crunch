@@ -6,7 +6,7 @@ const Hero = () => {
       {/* <link rel="stylesheet" href="../styles/Hero.css" precedence="default" /> */}
       <img src={logo} alt="Logo" />
       <p>¡Estamos trabajando en el desarrollo del sitio web oficial!</p>
-      <p>&#40;conforme el negocio avance&#47;crezca&#41;</p>
+      <p>&#40;conforme el emprendimiento avance&#47;crezca&#41;</p>
     </section>
   )
 }
