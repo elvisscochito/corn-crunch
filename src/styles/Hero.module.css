@@ -19,6 +19,12 @@ section.hero {
     /* text-wrap: pretty; */
     /* overflow-wrap: break-word; */
   }
+
+  p:last-child {
+    /* width: 32ch; */
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }
 
 

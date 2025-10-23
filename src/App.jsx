@@ -8,7 +8,6 @@ function App() {
       <meta name='description' content='Sitio web oficial de Corn Crunch' /> */}
       {/* <link rel="stylesheet" href="./styles/App.css" precedence="default" /> */}
       <Hero />
-      {/* <p>(conforme el negocio avanza)</p> */}
     </div>
   )
 }
