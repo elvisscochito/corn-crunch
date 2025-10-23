@@ -1,4 +1,17 @@
-#root {
+div.Landing {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 4rem 1rem; */
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -40,3 +53,4 @@
 .read-the-docs {
   color: #888;
 }
+ */
