@@ -72,10 +72,12 @@ div.LinkInBio {
       }
     }
 
-    a {
-      &:hover {
-        background-color: #ffffff;
-        color: var(--primary-color);
+    div.content {
+      a {
+        &:hover {
+          background-color: #ffffff;
+          color: var(--primary-color);
+        }
       }
     }
   }
