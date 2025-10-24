@@ -1,6 +1,5 @@
 :root {
   --primary-color: #FF9300;
   --secondary-color: #FEC526;
-
-  background-color: var(--primary-color) !important;
+  color-scheme: light dark;
 }

@@ -1,0 +1,82 @@
+/* (mobile first) */
+div.LinkInBio {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  overflow-y: auto;
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    img {
+      max-width: 1rem;
+      max-height: auto;
+    }
+  }
+
+  div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin: 0.5rem 0;
+      padding: 0.75rem 1.5rem;
+      border: 2px solid #ffffff;
+      background-color: hsla(0, 0%, 100%, 0.25);
+      border-radius: 2rem;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 1.25rem;
+      margin: 0.5rem 0;
+      padding: 0.75rem 1.5rem;
+      border: 4px solid var(--secondary-color);
+      border-radius: 2rem;
+      background-color: hsla(44, 99%, 57%, 0.25);
+      transition: background-color 0.3s, color 0.3s;
+    } */
+
+    /* p {
+      font-weight: 800;
+      font-size: 1.5rem;
+      width: 24ch;
+      text-align: center; */
+    /* text-wrap: pretty; */
+    /* overflow-wrap: break-word; */
+    /* } */
+  }
+}
+
+/* responsive design */
+@media only screen and (min-width: 768px) {
+  div.LinkInBio {
+    header {
+      img {
+        min-width: 32rem;
+        min-height: auto;
+      }
+    }
+
+    a {
+      &:hover {
+        background-color: #ffffff;
+        color: var(--primary-color);
+      }
+    }
+  }
+}

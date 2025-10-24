@@ -1,9 +1,9 @@
 import Hero from '../components/Hero.jsx'
-import '../styles/Landing.css'
+import styles from '../styles/Landing.module.css'
 
 function Landing() {
   return (
-    <div className="Landing">
+    <div className={styles.Landing}>
       {/* <meta name='keywords' content='Corn Crunch' />
       <meta name='description' content='Sitio web oficial de Corn Crunch' /> */}
       {/* <link rel="stylesheet" href="./styles/App.css" precedence="default" /> */}
