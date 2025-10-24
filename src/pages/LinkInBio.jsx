@@ -26,7 +26,7 @@ function LinkInBio() {
         <a href="https://wa.me/527771068816?text=Hola,%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faWhatsapp} className={styles.icon} />&nbsp;777 106 8816
         </a>
-        <a href="https://corncrunch.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://corncrunch.com">
           <FontAwesomeIcon icon={faLink} className={styles.icon} />&nbsp;corncrunch.com
         </a>
       </div>
