@@ -15,7 +15,7 @@ div.LinkInBio {
     width: 100%;
 
     img {
-      max-width: 1rem;
+      max-width: 20rem;
       max-height: auto;
     }
   }
@@ -51,14 +51,15 @@ div.LinkInBio {
       transition: background-color 0.3s, color 0.3s;
     } */
 
-    /* p {
-      font-weight: 800;
-      font-size: 1.5rem;
+  }
+
+  footer {
+    p {
       width: 24ch;
-      text-align: center; */
-    /* text-wrap: pretty; */
-    /* overflow-wrap: break-word; */
-    /* } */
+      text-align: center;
+      /* text-wrap: pretty; */
+      /* overflow-wrap: break-word; */
+    }
   }
 }
 
