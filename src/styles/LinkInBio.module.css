@@ -7,7 +7,6 @@ div.LinkInBio {
   background-color: var(--primary-color);
   color: #ffffff;
   overflow-y: auto;
-  overflow-x: clip;
 
   header {
     display: flex;
