@@ -1,15 +1,15 @@
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFile, /* faGlobe, */ faLink, faLocationDot, faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Logo from '../assets/Logo.svg';
+/* import Logo from '../assets/Logo.svg'; */
 import styles from '../styles/LinkInBio.module.css';
 
 function LinkInBio() {
   return (
     <div className={styles.LinkInBio}>
-      <header>
+      {/* <header>
         <img src={Logo} alt="Logo" />
-      </header>
+      </header> */}
       <div className={styles.content}>
         <a href="https://maps.app.goo.gl/JL2X5Pvik2p5dm3b9" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLocationDot} className={styles.icon} />&nbsp;Ubicación
