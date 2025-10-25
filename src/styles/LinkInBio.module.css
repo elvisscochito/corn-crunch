@@ -18,10 +18,10 @@ div.LinkInBio {
       /* max-width: 6rem;
       max-height: auto; */
 
-      max-width: 100%;
+      max-width: 80%;
       height: auto;
-      display: block;
-      box-sizing: border-box;
+      /* display: block;
+      box-sizing: border-box; */
     }
   }
 
