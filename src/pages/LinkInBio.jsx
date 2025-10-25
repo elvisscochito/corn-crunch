@@ -1,5 +1,5 @@
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { /* faEnvelope, */ faFile, /* faGlobe, */ faLink, faLocationDot, faMotorcycle } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFile, /* faGlobe, */ faLink, faLocationDot, faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../assets/Logo.svg';
 import styles from '../styles/LinkInBio.module.css';
@@ -31,10 +31,10 @@ function LinkInBio() {
         </a>
         <a href="https://corncrunch.com">
           <FontAwesomeIcon icon={faLink} className={styles.icon} />&nbsp;corncrunch.com
-        </a>{/*
+        </a>
         <a href="mailto:contact@corncrunch.com">
           <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />&nbsp;contact@corncrunch.com
-        </a> */}
+        </a>
       </div>
       <footer>
         <p>© 2025 Corn Crunch. Todos los derechos reservados.</p>
