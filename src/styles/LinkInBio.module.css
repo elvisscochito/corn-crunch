@@ -38,11 +38,6 @@ div.LinkInBio {
       font-size: 1.1rem;
       /* margin: 0.5rem 0; */
       padding: 0.5rem 1rem;
-
-      font-size: 1.25rem;
-      padding: 0.75rem 1.5rem;
-
-
       border: 2px solid #ffffff;
       background-color: hsla(0, 0%, 100%, 0.25);
       border-radius: 2rem;
@@ -85,6 +80,9 @@ div.LinkInBio {
 
     div.content {
       a {
+        font-size: 1.25rem;
+        padding: 0.75rem 1.5rem;
+
         &:hover {
           background-color: #ffffff;
           color: var(--primary-color);
